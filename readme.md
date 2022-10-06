@@ -1,4 +1,4 @@
-# auth0-access-token-jwt
+# auth0-access-token-jwt ![CI](https://github.com/markelog/auth0-access-token-jwt/actions/workflows/main.yml/badge.svg)
 
 > Verfies and decodes Access Token JWTs loosley following [draft-ietf-oauth-access-token-jwt-12](https://tools.ietf.org/html/draft-ietf-oauth-access-token-jwt-12)
 

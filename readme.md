@@ -35,4 +35,4 @@ auth.token; // Raw JWT token
 
 ## license
 
-MIT (see the [license](license) file).
+MIT (see the [license](license) file)

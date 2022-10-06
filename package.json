@@ -1,0 +1,43 @@
+{
+  "name": "auth0-access-token-jwt",
+  "license": "MIT",
+  "author": "Oleg Gaydarenko <markelog@gmail.com>",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest test --coverage",
+    "lint": "eslint --fix --ext .ts .",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^14.18.0",
+    "@types/sinon": "^10.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
+    "eslint": "^8.4.1",
+    "jest": "^27.4.5",
+    "jest-junit": "^13.0.0",
+    "nock": "^13.2.9",
+    "prettier": "~2.5.1",
+    "rimraf": "^3.0.2",
+    "sinon": "^12.0.1",
+    "ts-jest": "^27.1.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.4",
+    "@types/body": "^5.1.1",
+    "@types/type-is": "^1.6.3",
+    "body": "^5.1.0",
+    "got": "^11.8.5",
+    "type-is": "^1.6.18"
+  },
+  "dependencies": {
+    "jose": "^4.9.2"
+  },
+  "engines": {
+    "node": "^12.19.0 || ^14.15.0 || ^16.13.0"
+  }
+}

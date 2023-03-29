@@ -2,7 +2,7 @@
   "name": "auth0-access-token-jwt",
   "license": "MIT",
   "author": "Oleg Gaydarenko <markelog@gmail.com>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {

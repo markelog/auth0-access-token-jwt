@@ -5,9 +5,17 @@
     "useUnknownInCatchVariables": false,
     "removeComments": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "module": "ES2020",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src"
-  ]
+  ],
+  // "ts-node": {
+  //   "moduleTypes": {
+  //     "jest.config.ts": "cjs"
+  //   }
+  // }
 }

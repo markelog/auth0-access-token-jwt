@@ -1,9 +1,11 @@
 import { createServer, IncomingMessage, Server, ServerResponse } from 'http';
 import { URL } from 'url';
 import { AddressInfo } from 'net';
-import anyBody = require('body/any');
+// import anyBody = require('body/any');
+import {default as anyBody} from 'body/any'
 import got from 'got';
-import typeis = require('type-is');
+// import typeis = require('type-is');
+import {default as typeis} from 'type-is'
 import getToken from './get-token';
 
 const start = (server: Server): Promise<string> =>

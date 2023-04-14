@@ -22,7 +22,7 @@ const parseBody = (body: string, type?: string): Record<string, string> => {
 
   if (type && type.indexOf(FORM_TYPE) !== -1) {
     const parsedData = new URLSearchParams(body);
-    const dataObj = {};
+    const dataObj: Record<string, string> = {};
     for (const pair of parsedData.entries()) {
       dataObj[pair[0]] = pair[1];
     }

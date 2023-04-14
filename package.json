@@ -17,7 +17,7 @@
     "prebuild": "rimraf dist",
     "build": "run-s build:*",
     "build:types": "tsc --project ./tsconfig.types.json",
-    "build:cjs": "tsc --project ./tsconfig.cjs.json && echo '{ \"type\": \"commonjs\" }' > ./dist/csm/package.json",
+    "build:cjs": "tsc --project ./tsconfig.cjs.json && echo '{ \"type\": \"commonjs\" }' > ./dist/cjs/package.json",
     "build:esm": "tsc --project ./tsconfig.esm.json && echo '{ \"type\": \"module\" }' > ./dist/esm/package.json"
   },
   "devDependencies": {

@@ -5,7 +5,7 @@
     "useUnknownInCatchVariables": false,
     "removeComments": true,
     "declaration": false,
-    "outDir": "./dist/csm",
+    "outDir": "./dist/cjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "module": "commonjs"

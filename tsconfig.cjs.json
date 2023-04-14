@@ -1,13 +1,14 @@
 {
-  // "extends": ["@tsconfig/node12/tsconfig.json", "./tsconfig.esm.json"],
-  "extends": "./tsconfig.esm.json",
+  "extends": "@tsconfig/node12/tsconfig.json",
   "compilerOptions": {
     "allowJs": true,
     "useUnknownInCatchVariables": false,
     "removeComments": true,
-    "declaration": true,
+    "declaration": false,
     "outDir": "./dist/csm",
-    "allowSyntheticDefaultImports": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs"
   },
   "include": [
     "src"

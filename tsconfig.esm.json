@@ -4,18 +4,13 @@
     "allowJs": true,
     "useUnknownInCatchVariables": false,
     "removeComments": true,
-    "declaration": true,
+    "declaration": false,
     "outDir": "./dist/esm",
-    "module": "ES2020",
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": true
+    "module": "esnext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
     "src"
   ],
-  // "ts-node": {
-  //   "moduleTypes": {
-  //     "jest.config.ts": "cjs"
-  //   }
-  // }
 }

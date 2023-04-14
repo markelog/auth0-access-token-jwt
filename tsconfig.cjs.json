@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "useUnknownInCatchVariables": false,
+    "removeComments": true,
+    "declaration": false,
+    "outDir": "./dist/cjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs"
+  },
+  "include": [
+    "src"
+  ],
+}

@@ -4,10 +4,13 @@
     "allowJs": true,
     "useUnknownInCatchVariables": false,
     "removeComments": true,
-    "declaration": true,
-    "outDir": "./dist"
+    "declaration": false,
+    "outDir": "./dist/esm",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
   },
   "include": [
     "src"
-  ]
+  ],
 }

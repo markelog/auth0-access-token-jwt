@@ -1,0 +1,21 @@
+{
+  "extends": "@tsconfig/node12/tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "useUnknownInCatchVariables": false,
+    "removeComments": true,
+    "declaration": true,
+    "outDir": "./dist/esm",
+    "module": "ES2020",
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src"
+  ],
+  // "ts-node": {
+  //   "moduleTypes": {
+  //     "jest.config.ts": "cjs"
+  //   }
+  // }
+}
